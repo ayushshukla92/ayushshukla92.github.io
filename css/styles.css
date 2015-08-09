@@ -1,0 +1,75 @@
+html{
+    background: #2d2d2d;
+    color: #f2f0ec;
+    font-family: 'Inconsolata';
+    font-size: 16px
+}
+
+#imageProfile{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+h2{
+    font-size: 16px
+}
+
+tr{
+    margin: 5px;
+}
+
+#colon{
+    color: #747369
+}
+
+#navSection ul {
+    list-style-type: none
+}
+
+#navSection ul li{
+    list-style-type: none;
+    display: inline-block
+}
+
+#fullPage{
+    max-width: 1200px
+}
+
+#date{
+    color: #6699cc
+}
+
+#sectionHeader{
+    color: #747369
+}
+#infoSection{
+    margin: 20px;
+    max-width: 1000px
+}
+#progress{
+    color: #ffcc66
+}
+
+/* unvisited link */
+a:link {
+    color: #f2f0ec;
+    text-decoration: none
+}
+
+/* visited link */
+a:visited {
+    color: #f2f0ec;
+    text-decoration: none
+}
+
+/* mouse over link */
+a:hover {
+    color: #99cc99;
+    text-decoration: underline
+}
+
+/* selected link */
+a:active {
+    color: #7CA67C;
+    text-decoration: underline
+}

@@ -1,0 +1,93 @@
+html,body{
+    background: #fafafa;
+    height: 99%
+}
+
+#blogLogo{
+    max-width: 40%;
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -.5em
+}
+
+#date{
+    font-family: 'Raleway', sans-serif;
+    font-style: oblique;
+    font-size: 15px
+}
+
+#bodyText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+#main{
+    height: auto;
+    min-height: 100%;
+}
+
+#content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+    margin-top: .5%;
+}
+
+#datePost{
+    color: #34495E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80%
+    
+}
+
+#postTitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 130%
+}
+
+#footer {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 10;
+    margin-top: -3em
+}
+
+
+/* unvisited link */
+a:link {
+    color: #111111;
+    text-decoration: none
+}
+
+/* visited link */
+a:visited {
+    color: #111111;
+    text-decoration: none
+}
+
+/* mouse over link */
+a:hover {
+    color: #388e29;
+    text-decoration: underline
+}
+
+/* selected link */
+a:active {
+    color: #7CA67C;
+    text-decoration: underline
+}
